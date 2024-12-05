@@ -3,7 +3,7 @@
 Compiler = g++
 RELEASE_FLAGS = -O2 -Wall -DNDEBUG -Iheaders
 DEBUG_FLAGS   = -g -O0 -Wall -Iheaders
-RELEASE_EXEC  = Hash
+RELEASE_EXEC  = AES
 SOURCES       = main.cpp AES.cpp
 OBJECTS       = $(SOURCES:.cpp=.o)  
 LIBARY        = -lcryptopp 
